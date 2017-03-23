@@ -1,0 +1,111 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+	height: 100%;
+  	padding-bottom: 20px;
+ 	font-family: arial;
+ 	font-size: 16px;
+	background-color: white;
+ 	color: black;
+}	
+.jumbotron {
+	color: black; 
+	background-color: white;
+}
+
+.btn-lg{
+	font-size: 30px;	
+}
+
+.container {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#home {
+	/*border: 1px solid green;*/
+	text-align: center;
+	margin-bottom: 45px auto;
+	padding: 25px;
+}
+
+#que-hacemos {
+	/*border: 1px solid black;*/
+	margin: 25px auto;
+	padding: 50px;
+}
+
+#quienes-somos {
+	/*border: 1px solid red;*/
+	margin: 25px auto;
+	padding: 50px;
+}
+
+#que-es-la-psoriasis {
+	/*border: 1px solid blue;*/
+	margin: 25px auto;
+	padding: 50px;
+}
+
+#sub {
+	margin: 25px auto;
+	padding: 50px;
+}
+
+.container img.PSO-What-ste {
+	margin: 5px;
+	margin-bottom: 30px;
+	width: 300px;
+	height: 300px;
+	text-align: center;
+	box-shadow: 0px 0px 20px #888877;
+}	
+
+.container img.PSO-What-ste:hover {
+	opacity: 0.7;
+}
+
+.container p {
+	font-family: arial;
+  	font-size: 18px;
+}
+
+.sub {
+	/*background-color:  #ff66ff;*/
+	text-align: left;
+	box-shadow: 0px 10px 20px #888877;
+}
+
+h2 {
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+h4 {
+	padding-bottom: 15px;
+}
+
+div.sponsor img{
+	width: 100px;
+	height: auto;
+	border: 1px solid black;
+	display: inline-block;
+}
+
+
+.sponsor a:hover {
+	opacity: 0.7;
+	
+}
+
+.share {
+	position: fixed;
+	top: 150px;
+	right: 5px;
+	
+}
+
+ul {
+	list-style-type: none;
+	text-decoration: none;
+}
+
